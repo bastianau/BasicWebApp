@@ -18,6 +18,9 @@ public class QueryProcessor {
         else if (query.contains("name")) {
            return "MyTeam";
         }
+        else if(query.contains("what is")) {
+            return "21";
+        }
         else return "";
     }
 }
